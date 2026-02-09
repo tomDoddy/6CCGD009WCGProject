@@ -1,0 +1,10 @@
+﻿  Game.cpp
+C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\source\Library\Game.cpp(113,40): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
+C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\source\Library\Game.cpp(113,54): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
+  GameClock.cpp
+  GameException.cpp
+  GameTime.cpp
+  Generating Code...
+  Library.vcxproj -> C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\build\Debug\Libraryd.lib
+  A subdirectory or file C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\build\..\lib\ already exists.
+          1 file(s) copied.
