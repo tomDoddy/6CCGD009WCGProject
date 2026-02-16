@@ -1,10 +1,66 @@
-﻿  Game.cpp
-C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\source\Library\Game.cpp(113,40): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
-C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\source\Library\Game.cpp(113,54): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
+﻿  Camera.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  DrawableGameComponent.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  FirstPersonCamera.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Game.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\source\Library\Game.cpp(200,40): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
+C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\source\Library\Game.cpp(200,54): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
   GameClock.cpp
+  GameComponent.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   GameException.cpp
   GameTime.cpp
+  Keyboard.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MatrixHelper.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Mouse.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  RenderStateHelper.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  ServiceContainer.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Utility.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'Utility.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\source\Library\Utility.cpp(15,21):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\source\Library\Utility.cpp(15,3):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Library::Utility::CurrentDirectory'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned int,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned int,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned int
+          ]
+  
+  VectorHelper.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   Generating Code...
-  Library.vcxproj -> C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\build\Debug\Libraryd.lib
-  A subdirectory or file C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\build\..\lib\ already exists.
+  Library.vcxproj -> C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\build\Debug\Libraryd.lib
+  A subdirectory or file C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\build\..\lib\ already exists.
           1 file(s) copied.
