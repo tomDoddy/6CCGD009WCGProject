@@ -20,6 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp" />
+    <ClCompile Include="RenderingGame.cpp" />
+    <ClCompile Include="TriangleDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderingGame.h" />
+    <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -87,6 +93,11 @@
       <AdditionalDependencies>d3d11.lib;DirectXTK.lib;d3dcompiler.lib;Effects11d.lib;dinput8.lib;dxguid.lib;Shlwapi.lib;Libraryd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(WindowsSDK_LibraryPath_x86);$(SolutionDir)..\lib;$(SolutionDir)..\..\external\Effects11\lib\x86;$(SolutionDir)..\..\external\DirectXTK\lib\Win32\Debug;$(SolutionDir)..\..\external\assimp\lib\assimp_debug-dll_win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>mkdir "$(OutDir)Content"
+IF EXIST "$(SolutionDir)..\content" xcopy /E /Y "$(SolutionDir)..\content" "$(OutDir)Content\"
+</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

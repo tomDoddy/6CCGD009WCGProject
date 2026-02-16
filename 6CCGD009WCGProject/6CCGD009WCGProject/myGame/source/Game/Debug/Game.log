@@ -1,2 +1,11 @@
-﻿  Program.cpp
-  Game.vcxproj -> C:\Users\tunit\Downloads\6CCGD009WCGProject\6CCGD009WCGProject\myGame\build\Debug\Game.exe
+﻿  C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\build\..\content\Effects\BasicEffect.cso
+  C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\build\..\content\Effects\BasicEffect.fx
+  2 File(s) copied
+  Program.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  RenderingGame.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  TriangleDemo.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Generating Code...
+  Game.vcxproj -> C:\Users\w1909990\Downloads\6CCGD009WCGProjectweek2\6CCGD009WCGProject\myGame\build\Debug\Game.exe
