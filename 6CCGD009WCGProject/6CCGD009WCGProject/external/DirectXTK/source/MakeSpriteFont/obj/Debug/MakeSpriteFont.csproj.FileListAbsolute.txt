@@ -1,5 +1,0 @@
-G:\temp\EICG605GameProjectLi_Lighting\external\DirectXTK\source\MakeSpriteFont\bin\Debug\MakeSpriteFont.exe
-G:\temp\EICG605GameProjectLi_Lighting\external\DirectXTK\source\MakeSpriteFont\bin\Debug\MakeSpriteFont.pdb
-G:\temp\EICG605GameProjectLi_Lighting\external\DirectXTK\source\MakeSpriteFont\obj\Debug\MakeSpriteFont.csprojResolveAssemblyReference.cache
-G:\temp\EICG605GameProjectLi_Lighting\external\DirectXTK\source\MakeSpriteFont\obj\Debug\MakeSpriteFont.exe
-G:\temp\EICG605GameProjectLi_Lighting\external\DirectXTK\source\MakeSpriteFont\obj\Debug\MakeSpriteFont.pdb
