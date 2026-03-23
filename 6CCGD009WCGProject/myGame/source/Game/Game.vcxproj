@@ -95,7 +95,9 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir "$(OutDir)Content"
-IF EXIST "$(SolutionDir)..\content" xcopy /E /Y "$(SolutionDir)...\content" "$(OutDir)Content\</Command>
+IF EXIST "$(SolutionDir)..\content" xcopy /E /Y "$(SolutionDir)..\content" "$(OutDir)Content\"
+
+</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
